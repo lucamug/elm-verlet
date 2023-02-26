@@ -4,7 +4,7 @@
             "inputs": [
                 "src/Main.elm"
             ],
-            "output": "docs/js-compiled/elm.js"
+            "output": "docs/elm.js"
         }
     }
 }
