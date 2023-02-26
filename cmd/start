@@ -1,0 +1,7 @@
+#!/bin/bash
+set -eu
+
+COMMAND1="elm-watch hot 'Main'"
+COMMAND2="http-server docs -c-1 --cors --port=8002 --silent"
+COMMAND="${COMMAND1} & ${COMMAND2}"
+eval "${COMMAND}"
