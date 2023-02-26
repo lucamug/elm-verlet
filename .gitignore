@@ -1,2 +1,5 @@
 elm-stuff
-docs/js-compiled/
+build/
+index.html
+node_modules/
+docs/elm.js

@@ -1,0 +1,8 @@
+#!/bin/bash
+set -eu
+
+rm -rf build
+mkdir build
+cp docs/index.html build
+cp docs/elm-canvas.js build
+node_modules/.bin/elm make src/Main.elm --optimize --output build/elm.js
